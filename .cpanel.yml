@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jbsbuilt/public_html/market-report/
+    - /bin/cp -r index.html $DEPLOYPATH
+    - /bin/cp -r assets $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
